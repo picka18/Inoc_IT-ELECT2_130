@@ -4,4 +4,7 @@
     <string name="subject">Subject</string>
     <string name="message">Message</string>
     <string name="send">Send</string>
+    <string-array name="robot_array">
+        <item>Select a robot...</item>
+    </string-array>
 </resources>
