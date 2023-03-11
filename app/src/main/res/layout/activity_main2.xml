@@ -6,10 +6,7 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:orientation="vertical">
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margi"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=.MainActivity">
+
 
     <Button
         android:id="@+id/button2"
