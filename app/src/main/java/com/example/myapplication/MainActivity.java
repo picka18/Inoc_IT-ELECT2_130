@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Log.i(TAG, "Button Click");
-                Intent intent = new Intent( MainActivity.this, SecondActivity.class);
+                Intent intent = new Intent( MainActivity.this, FragmentActivity.class);
                 startActivity(intent);
 
             }

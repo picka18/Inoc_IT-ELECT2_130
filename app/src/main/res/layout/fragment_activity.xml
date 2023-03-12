@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ActivityFragment">
+    tools:context=".FragmentActivity">
 
     <Button
         android:id="@+id/button2"
         android:layout_width="301dp"
         android:layout_height="57dp"
-        android:text="@string/first_fragment"
+        android:text="first_fragment"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.481"
@@ -20,9 +20,9 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="299dp"
-        android:layout_height="55dp"
-        android:text="@string/second_fragment"
+        android:layout_width="302dp"
+        android:layout_height="64dp"
+        android:text="second_fragment"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.46"
