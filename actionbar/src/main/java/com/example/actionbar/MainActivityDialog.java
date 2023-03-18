@@ -11,7 +11,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-
+import com.example.actionbar.R;
 
 public class MainActivityDialog extends AppCompatActivity {
 
@@ -22,9 +22,9 @@ public class MainActivityDialog extends AppCompatActivity {
 
         ActionBar actionBar = getSupportActionBar();
 
-        actionBar.setTitle("Hello Trisha");
+        actionBar.setTitle("Hello Inoc");
 
-        actionBar.setSubtitle("Hi");
+        actionBar.setSubtitle("God Is Good All The Time");
 
         actionBar.setIcon(R.mipmap.ic_launcher);
 
@@ -43,15 +43,15 @@ public class MainActivityDialog extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 
         switch (item.getItemId()) {
-            case R.id.search:
+            case R.id.search_icon:
                 search:
                 showAlertDialog();
                 break;
-            case R.id.refresh:
+            case R.id.refresh_icon:
                 DialogFragment dialogFragment = new DialogFragment();
                 dialogFragment.show(getSupportFragmentManager(), "My Fragment");
                 break;
-            case R.id.copy:
+            case R.id.copy_icon:
                 Toast.makeText(this, "Copy Clicked", Toast.LENGTH_SHORT).show();
                 break;
         }
