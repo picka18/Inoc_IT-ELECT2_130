@@ -29,17 +29,6 @@ public class HomeFragment extends Fragment {
 
         final TextView textView = binding.textHome;
         homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
-        final Button buttonGoToSecond = binding.buttonGotosecond;
-
-        buttonGoToSecond.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getContext(), MainActivity.class);
-                intent.putExtra("PASS_ME", "Hi I'm from Main Activity!!!");
-                startActivity(intent);
-            }
-        });
-
         return root;
     }
 
